@@ -22,7 +22,7 @@ resource "azurerm_service_plan" "appserviceplan" {
   resource_group_name = azurerm_resource_group.group.name
   os_type             = "Linux"
 
-  sku_name = "P1v2"
+  sku_name = "P2v2"
 }
 
 resource "azurerm_app_service" "dockerapp" {
